@@ -1,33 +1,30 @@
-# markdown-it-underline
+# markdown-it-emph
+
 Renders this markdown
 
 ```md
-_underline_ *emphasis*
+_italic_ *emphasis* __bold__ **strong** ____underline____
 ```
 
 to this HTML
 
 ```HTML
-<u>underline</u> <em>emphasis</em>
+<i>italic</i> <em>emphasis</em> <b>bold</b> <strong>strong</strong> <u>underline</u>
 ```
-
-This might not be semantic correct, but who cares :-)
-
-See [the discussion at talk.commonmark.com](https://talk.commonmark.org/t/feature-request-underline-text/343).
 
 ## Install
 
 ```sh
-npm install markdown-it-underline
+npm install markdown-it-emph
 ```
 
 ## Usage
 
 ```js
-const underline = require('markdown-it-underline');
-const md = require('markdown-it')().use(underline);
+const emph = require('markdown-it-emph');
+const md = require('markdown-it')().use(emph);
 
-console.log(md.renderInline('_underline_ *emphasis*'));
+console.log(md.renderInline('_italic_ *emphasis*'));
 ```
 
 ## Development
