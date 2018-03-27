@@ -1,7 +1,7 @@
 {
-  "name": "markdown-it-underline",
-  "version": "1.0.1",
-  "description": "Renders _underline_ to <u>underline</u>",
+  "name": "markdown-it-emph",
+  "version": "1.0.0",
+  "description": "Distinguish *em*, **strong** from _i_, __b__ and ____u____",
   "main": "index.js",
   "scripts": {
     "preversion": "npm test",
@@ -10,21 +10,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arve0/markdown-it-underline.git"
+    "url": "git+https://github.com/Crissov/markdown-it-emph.git"
   },
   "keywords": [
     "underline",
+    "emphasis",
+    "html5",
     "markdown",
     "markdown-it",
     "markdown-it-plugin",
     "commonmark"
   ],
-  "author": "Arve Seljebu",
+  "author": "Christoph Päper",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arve0/markdown-it-underline/issues"
+    "url": "https://github.com/Crissov/markdown-it-emph/issues"
   },
-  "homepage": "https://github.com/arve0/markdown-it-underline#readme",
+  "homepage": "https://github.com/Crissov/markdown-it-emph#readme",
   "devDependencies": {
     "markdown-it": "^8.1.0",
     "power-assert": "^1.4.2"
